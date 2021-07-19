@@ -1,0 +1,41 @@
+step 1: mkdir assignment1
+step 2: cd assignment1
+step 3: git init
+step 4: notepad sample.txt
+step 5: git add sample.txt
+step 6: git commit -m "Sample file created"
+step 7: notepad add.txt
+step 8: notepad mult.txt
+step 9: notepad sub.txt
+step 10: git branch Dev
+step 11: git branch Test
+step 12: git checkout Dev
+step 13: git add add.txt
+step 14: git commit -m "add file added to Dev branch"
+step 15: git checkout Test
+step 16: git add mult.txt
+step 17: git commit -m "mult file added to Test branch"
+step 18: git add sub.txt
+step 19: git commit -m "sub file added to Test branch"
+step 20: git checkout Dev
+step 21: notepad add.txt
+step 22: git add add.txt
+step 23: git commit -m "add file modified"
+step 24: git log
+step 25: git diff 7aae5eb8cee604ae8212939c24b8a44623ba8813 a5b639a58e5920b39a5dd27f1426321956d5ea69
+step 26: git checkout master
+step 27: git merge Dev
+step 28: git merge Test
+step 29: git remote add origin https://github.com/EMraan619/assignment1.git
+step 30: git push -u origin master
+step 31: cd ..
+step 32: mkdir assign1clone
+step 33: cd assign1clone
+step 34: git clone https://github.com/EMraan619/assignment1.git
+step 35: cd assignment1
+step 36: notepad solution.txt
+step 37: git add solution.txt
+step 38: git commit -m "solution file committed"
+step 39: git push -u origin master
+
+
